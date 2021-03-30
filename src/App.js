@@ -1,11 +1,13 @@
 import React from 'react';
-import TodoFeatures from '../src/features/Todo/index';
+import TodoFeatures from '../src/features/Todo';
+import Album from '../src/features/Album';
 
 function App() {
     return (
-    <div className="App">
-        <TodoFeatures></TodoFeatures>
-    </div>
+        <div className="App">
+            {/* <TodoFeatures></TodoFeatures> */}
+            <Album></Album>
+        </div>
     );
 }
 

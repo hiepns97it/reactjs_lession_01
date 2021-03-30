@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import TodoList from './components/TodoList';
 
 TodoFeatures.propTypes = {
-    
+
 };
 
 function TodoFeatures(props) {

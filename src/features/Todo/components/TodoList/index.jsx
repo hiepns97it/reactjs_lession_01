@@ -10,7 +10,7 @@ TodoList.defaultProps = {
 }
 
 function TodoList(props) {
-    const {} = props;
+    const { } = props;
     return (
         <div>
             <ul>
