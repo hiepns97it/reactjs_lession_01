@@ -13,16 +13,16 @@ TodoList.defaultProps = {
     onTodoClick: null,
 }
 
-function TodoList({props, onTodoClick) {
+function TodoList({ todoList, onTodoClick }) {
     const handleTodoClick = (val, idx) => {
         if(!onTodoClick) return;
-        props.onTodoClick(val, idx);
+        onTodoClick(val, idx);
     };
 
     return (
         <div>
             <ul className='todo-list'>
-                {props.todoList.map((value, index) => (
+                {todoList.map((value, index) => (
                     <li 
                     className={classnames(
                         {
